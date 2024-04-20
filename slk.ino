@@ -1,4 +1,12 @@
+// #include <can-serial.h>
+// #include <mcp2515_can.h>
+// #include <mcp2515_can_dfs.h>
+// #include <mcp2518fd_can.h>
+// #include <mcp2518fd_can_dfs.h>
+// #include <mcp_can.h>
+
 #include <SPI.h>
+// #include "mcp2515_can.h"
 #include "mcp2515_can.h"
 
 /*SAMD core*/
@@ -22,22 +30,23 @@ void setup() {
   while (CAN_OK != CAN.begin(CAN_83K3BPS, MCP_16MHz)) {  // init can bus : baudrate = 500k
     SERIAL.println("CAN BUS Shield init fail");
     SERIAL.println("Init CAN BUS Shield again");
-    delay(100);
+    delay(1000);
   }
-  //  SERIAL.print(speed);
   SERIAL.println("CAN BUS Shield init ok!");
 
-  CAN.init_Mask(0, 0, 0x07FF); // xffffffff);
-  CAN.init_Mask(1, 0, 0x07FF);
+  // CAN.init_Mask(0, 0, 0x07FF); // xffffffff);
+  // CAN.init_Mask(1, 0, 0x07FF);
 
-  CAN.init_Filt(0, 0, 0x0762);
-  CAN.init_Filt(1, 0, 0x0762);
-  CAN.init_Filt(2, 0, 0x0762);
-  CAN.init_Filt(3, 0, 0x0762);
-  CAN.init_Filt(4, 0, 0x0762);
-  CAN.init_Filt(5, 0, 0x0762);
+  // CAN.init_Filt(0, 0, 0x0762);
+  // CAN.init_Filt(1, 0, 0x0762);
+  // CAN.init_Filt(2, 0, 0x0762);
+  // CAN.init_Filt(3, 0, 0x0762);
+  // CAN.init_Filt(4, 0, 0x0762);
+  // CAN.init_Filt(5, 0, 0x0762);
 
   // pinMode(LED_BUILTIN, OUTPUT);
+  // pinMode(5, OUTPUT);
+  // SERIAL.println("init done");
 }
 
 typedef struct {
@@ -47,8 +56,23 @@ typedef struct {
 } frame_t;
 
 frame_t FRAMES[] = {
- {.id=0x10, .len=2,.data={0x30, 0x1}},
- {.id=0x350, .len=2,.data={0x40, 0x1}},
+  // {.id=1992, .len=8, .data={0,0,0,0,0,0,0,0}},
+  // {.id=1992, .len=8, .data={0,0,0,0,0,0,0,0x40}},
+  // {.id=1994, .len=8, .data={0,0,0,0,0,0,0,0}},
+  // {.id=1994, .len=8, .data={0,0,0,0,0,0,0,0x40}},
+  
+    {.id=0x10, .len=1, .data={0x30}},   // left window down   = 0001
+//   {.id=0x10, .len=1, .data={0x20}},   // right window down   = 0010
+
+
+//  { .id=0x10, .len=1, .data={0x30}},   // both windows down  === 0011
+//  {.id=0x10, .len=1, .data={0x70}},    // both windows down   == 0111
+//  {.id=0x10, .len=1, .data={0xB0}},   // == 1011  // both windows down
+  //{.id=0x10, .len=1, .data={0xF0}},   // == 1111, both windows down
+
+//  {.id=0x10, .len=1, .data={0x80}},   // == 0100
+
+// {.id=0x350, .len=2,.data={0x40, 0x1}},
 };
 
 /*
@@ -101,38 +125,43 @@ frame_t FRAMES[] = {
 };
 */
 
-// unsigned long i = 0;
+unsigned long i = 0;
 
 void loop() {
-  // if (i % 100000 == 0) {
-  //   int speed = i / 100000;
-
-  // }
-  // ++i;
+  // SERIAL.println("on");
+  // digitalWrite(5, HIGH); // sets the digital pin 13 on
+  // delay(5000);            // waits for a second
+  // SERIAL.println("off");
+  // digitalWrite(5, LOW);  // sets the digital pin 13 off
+  // delay(5000);            // waits for a second
 
   if (CAN_MSGAVAIL == CAN.checkReceive()) {
     byte len = 0;
     byte buf[8];
-
-    // read data,  len: data length, buf: data buf
-    // SERIAL.println("checkReceive");
     CAN.readMsgBuf(&len, buf);
-
     unsigned long id = CAN.getCanId();
-    SERIAL.print(id);
-    SERIAL.print(": ");
 
-    // print the data
-    for (int i = 0; i < len; i++) {
-      SERIAL.print(buf[i], 16);
-      SERIAL.print(" ");
-    }
-    SERIAL.println("");
+   // if (id == 11 || id == 16) {
+      SERIAL.print(id);
+      SERIAL.print(": ");
+      for (int i = 0; i < len; i++) {
+        SERIAL.print(buf[i], 16);
+        SERIAL.print(" ");
+      }
+      SERIAL.println("");
+ //   }
   }
 
-  // for (int i = 0; i < sizeof(FRAMES) / sizeof(frame_t); i++) {
-  //   CAN.sendMsgBuf(FRAMES[i].id, 0, FRAMES[i].len, FRAMES[i].data);
-  // }
-  // SERIAL.println("send");
-  // delay(100);  // send data per 100ms
+  if (i % 10000 == 0) {
+    for (int i = 0; i < sizeof(FRAMES) / sizeof(frame_t); i++) {
+      // Remote transmission request (RTR) = 0 (means we're sending a data frame)
+      // Identifier extension bit (IDE) = 0 (means we're using an 11 bit identifier)
+      CAN.sendMsgBuf(FRAMES[i].id, CAN_STDID, FRAMES[i].len, FRAMES[i].data); 
+
+//      CAN.trySendMsgBuf(FRAMES[i].id, 0, 0, FRAMES[i].len, FRAMES[i].data);
+      SERIAL.print("send ");
+      SERIAL.println(i);
+    }
+  }
+  ++i;
 }
