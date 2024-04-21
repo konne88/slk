@@ -6,6 +6,8 @@
 const int SPI_CS_PIN = 9;
 mcp2515_can CAN(SPI_CS_PIN);
 
+#include "replay.h"
+
 #define START_MILLIS 1000   // Start button push repeating after 1s
 #define END_MILLIS 30000    // End button push repeating after 30s
 #define DELAY_MILLIS 20     // Delay between button push indicator signals is 20ms.
@@ -61,6 +63,8 @@ void send() {
 }
 
 void setup() {
+  setupBaseline();
+
   SERIAL.begin(115200);
   while (!Serial) {};
 
@@ -74,4 +78,7 @@ void setup() {
 void loop() {
   receive();
   send();
+
+  // record();
+  // replay();
 }
