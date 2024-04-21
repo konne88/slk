@@ -84,13 +84,19 @@ void alwaysSendOpen() {
 
     // send every 20 ms
   if (millis() - lastSent < 20) return;
+  if (millis() > 4000) return;
+  
   lastSent = millis();
+// #define ROOF_CAN_ID 0x350
+// #define ROOF_OPEN_COMMAND 0x40
+// #define ROOF_CLOSE_COMMAND 0x80
 
-  for (int i = 0; i < sizeof(FRAMES) / sizeof(frame_t); i++) {
-    CAN.sendMsgBuf(FRAMES[i].id, CAN_STDID, FRAMES[i].len, FRAMES[i].data);
+ // for (int i = 0; i < sizeof(FRAMES) / sizeof(frame_t); i++) {
+   int i = 0;
+    CAN.sendMsgBuf(ROOF_CAN_ID, CAN_STDID, 1, FRAMES[i].data);
     SERIAL.print("send ");
     SERIAL.println(millis());
-  }
+  // }
 }
 
 void setup() {
