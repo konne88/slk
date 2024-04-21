@@ -93,8 +93,9 @@ void alwaysSendOpen() {
 
  // for (int i = 0; i < sizeof(FRAMES) / sizeof(frame_t); i++) {
    int i = 0;
-    CAN.sendMsgBuf(ROOF_CAN_ID, CAN_STDID, 1, FRAMES[i].data);
-    SERIAL.print("send ");
+   byte data = ROOF_OPEN_COMMAND;
+    CAN.sendMsgBuf(ROOF_CAN_ID, CAN_STDID, 1, &data); // FRAMES[i].data);
+    SERIAL.print("sending yeah ");
     SERIAL.println(millis());
   // }
 }
