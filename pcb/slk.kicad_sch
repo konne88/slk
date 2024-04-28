@@ -2754,6 +2754,26 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 63.5) (xy 54.61 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eb9ceb7-70fd-459d-b6c9-e2267a708eb3")
+	)
+	(wire
+		(pts
+			(xy 58.42 58.42) (xy 54.61 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fd4ce03-b7ed-4a07-9771-ebd0e7f23edb")
+	)
+	(wire
+		(pts
 			(xy 86.36 134.62) (xy 86.36 110.49)
 		)
 		(stroke
@@ -2831,6 +2851,16 @@
 			(type default)
 		)
 		(uuid "37c50b5f-146f-4878-9405-f57b0ab7814c")
+	)
+	(wire
+		(pts
+			(xy 58.42 55.88) (xy 54.61 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3846c0bb-0bb8-4f98-852d-3d90e4cd2a26")
 	)
 	(wire
 		(pts
@@ -2924,6 +2954,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 60.96) (xy 54.61 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d1a08e2-9f88-4561-9b56-6c287b82f367")
+	)
+	(wire
+		(pts
 			(xy 190.5 92.71) (xy 187.96 92.71)
 		)
 		(stroke
@@ -2981,6 +3021,16 @@
 			(type default)
 		)
 		(uuid "a34c705c-6025-4d73-82f1-3d84c047d720")
+	)
+	(wire
+		(pts
+			(xy 58.42 53.34) (xy 54.61 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af4061ea-be4c-4eb0-ba2b-14e39a4085c4")
 	)
 	(wire
 		(pts
@@ -3143,6 +3193,17 @@
 		)
 		(uuid "00461b18-a696-43f0-ba7e-35895789d4c2")
 	)
+	(label "ERR"
+		(at 58.42 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13101b92-33b0-4702-8359-0be89ed2368a")
+	)
 	(label "CS"
 		(at 58.42 43.18 0)
 		(fields_autoplaced yes)
@@ -3198,6 +3259,17 @@
 		)
 		(uuid "3bbd0bdf-edee-46c2-9d18-7b17690096bf")
 	)
+	(label "INH"
+		(at 58.42 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "421536b5-fa8a-4d74-a3fc-f92838b5b1ae")
+	)
 	(label "SCK"
 		(at 58.42 35.56 0)
 		(fields_autoplaced yes)
@@ -3242,6 +3314,17 @@
 		)
 		(uuid "5d7d2e33-9e22-41ee-a225-9872b2558ec7")
 	)
+	(label "WAKE"
+		(at 58.42 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60f24dba-d286-44ac-bf3c-aa970026a82d")
+	)
 	(label "SCK"
 		(at 96.52 97.79 0)
 		(fields_autoplaced yes)
@@ -3285,6 +3368,17 @@
 			(justify left bottom)
 		)
 		(uuid "7587df51-7410-4e33-848d-3b6c098c4c1e")
+	)
+	(label "STB"
+		(at 58.42 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7961b8ac-f66b-4e1f-ab4c-cd48eb748628")
 	)
 	(label "CANL"
 		(at 190.5 95.25 0)
@@ -3395,6 +3489,17 @@
 			(justify left bottom)
 		)
 		(uuid "dbe14e9f-6ef1-44b1-8a55-ac3814eb6ed8")
+	)
+	(label "EN"
+		(at 58.42 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0917659-8a5f-4957-ac66-85cb15905959")
 	)
 	(label "ERR"
 		(at 154.94 97.79 0)
