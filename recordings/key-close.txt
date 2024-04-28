@@ -1,7 +1,30 @@
 Setup ok
+
+// To help with decoding: https://github.com/rnd-ash/MBUX-Port/blob/master/203_b.txt
+
+
+// This is the first message we receive, and what wakes up the CAN bus
+// 0x400 is apparently the Network Management id.
 {.time=39322, .id=0x400, .len=8, .data={0xFE, 0x0, 0x3F, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF}},
+
+
+// No clue what this does.
 {.time=39325, .id=0x404, .len=8, .data={0xFE, 0x4, 0x3F, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF}},
+
+
+// This seems to be the key management thingy, EZS_A1.
+// 0-7
+// 8-15
+// 16-23
+// OFFSET 17 LEN 1 = 0x02 < passive locking?
+//
+// I'm locking the car, so that would make sense.
+// 
+// This also keep repeating until the very end, so it might be the thing.
+// It repeats with seemingly random pauses inbetween.
 {.time=39332, .id=0x0, .len=6, .data={0x0, 0x0, 0x2, 0x0, 0x0, 0x0}},
+
+// Not sure
 {.time=39339, .id=0x3, .len=8, .data={0x3, 0x80, 0xFF, 0xFF, 0x0, 0xEF, 0xFF, 0x1}},
 {.time=39346, .id=0x180, .len=2, .data={0xE0, 0x0}},
 {.time=39351, .id=0x402, .len=8, .data={0xFE, 0x2, 0x3F, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF}},
