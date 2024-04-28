@@ -3383,7 +3383,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 139.7 122.428 90)
 			(effects
 				(font
@@ -3453,7 +3453,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-3_P5.08mm"
 			(at 219.71 95.25 0)
 			(effects
 				(font
@@ -3526,7 +3526,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 31.75 33.02 0)
 			(effects
 				(font
@@ -3612,7 +3612,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 31.75 58.42 0)
 			(effects
 				(font
@@ -3692,7 +3692,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
 			(at 49.53 38.1 0)
 			(effects
 				(font
@@ -3786,7 +3786,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 94.9452 147.32 0)
 			(effects
 				(font
@@ -3973,7 +3973,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_ECS_CSM3X-2Pin_7.6x4.1mm"
 			(at 90.17 134.62 0)
 			(effects
 				(font
@@ -4042,7 +4042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 87.3252 147.32 0)
 			(effects
 				(font
@@ -4110,7 +4110,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 49.53 63.5 0)
 			(effects
 				(font
@@ -4195,7 +4195,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 162.56 87.63 0)
 			(effects
 				(font
