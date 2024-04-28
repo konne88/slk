@@ -197,6 +197,19 @@
 				)
 			)
 		)
+		(property "Part Number" "200-SSW10603GS"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d06df11a-3d75-4cf9-8afa-8ebfa52ce1f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/4a118f7c-e26e-4180-a0db-d593e59afa0a")
 		(sheetname "Root")
@@ -505,6 +518,19 @@
 				)
 			)
 		)
+		(property "Part Number" "TERM BLK 3P SIDE ENT 5.08MM PCB"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f1d7781-2a2f-418c-8065-22508527d8ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/07badb41-2fef-4444-9dc8-69c282448ae7")
 		(sheetname "Root")
@@ -723,7 +749,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "330"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "2a4d4470-8729-49d5-9096-0f23afad9437")
@@ -767,6 +793,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RC0402JR-07330RL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13695e48-7046-40b4-9e07-cfbe4903c24b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -977,6 +1016,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "TJA1055T/1J (935302723118) "
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbdfcd80-4614-4eeb-ba9a-13a27cfeff4d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1354,6 +1406,19 @@
 				)
 			)
 		)
+		(property "Part Number" "LTST-C191KRKT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8f0195f-63e5-4675-a8c3-4bb20357aa06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/c8284d15-6583-40a1-949f-1ab77490ec4f")
 		(sheetname "Root")
@@ -1584,6 +1649,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "JS102011SAQN"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5a4514a-946e-4211-8c06-39274e68f5fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2104,6 +2182,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c69a01d0-ce63-4167-a739-9cb258f856ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/33e3bb0f-ca40-41f7-881a-a72945eed395")
 		(sheetname "Root")
@@ -2211,6 +2302,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "200-SSW10803GS"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe89b3b6-6e9b-4c2c-af6b-b2634ec6d530")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2487,7 +2591,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D3"
-			(at 0 1.27 0)
+			(at -0.080271 1.608875 0)
 			(layer "F.SilkS")
 			(uuid "7d9ec19a-929e-47ff-a999-e1f2a614a9e9")
 			(effects
@@ -2542,6 +2646,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "LTST-C193TBKT-5A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3bd349a6-2528-4bce-849e-e3c1c78d82d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2730,7 +2847,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "330"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "5e5523e9-e6d4-41ba-8ff4-5fd8db94d959")
@@ -2774,6 +2891,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RC0402JR-07330RL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed2d65fc-7567-414b-aa0f-905161445726")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2985,6 +3115,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "LTST-C190GKT "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20699d1c-832b-42cd-a0bf-98ab67a45d12")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3220,6 +3363,19 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0402JR-0710KL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f693c18a-790b-41f8-bfbc-165dbee2c498")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0655771e-25c4-4c08-9704-4a689086dca7")
 		(sheetname "Root")
@@ -3432,6 +3588,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54703f3a-b3f1-4e7d-abbb-d53ca3aa72d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/a3a8dc71-3be3-4055-a13d-9944fd5e0646")
 		(sheetname "Root")
@@ -3539,6 +3708,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "MCP2515T-I/SO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "139d4262-2372-469c-850b-8863e92895a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3987,6 +4169,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad648ba5-9cbd-422f-9559-dff6ca33c100")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/f1bb6e8c-3077-4fb6-aba7-980beff2e12c")
 		(sheetname "Root")
@@ -4099,6 +4294,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36d8594b-1e23-4774-be89-a1b75babadc5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/aa348dd3-22be-407b-93a1-5739bf398e80")
 		(sheetname "Root")
@@ -4206,6 +4414,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ECS-160-20-3X-TR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "903d2315-5384-4ff5-8c70-b30717035c0c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4478,6 +4699,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "200-SSW11003GS"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2c111a7-1f12-4d5f-964e-86de2a8e115d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4833,6 +5067,19 @@
 				)
 			)
 		)
+		(property "Part Number" "GRM1555C1H220JA01D"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd9c1932-1fed-4b69-b3fb-0dcbc3156ef4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/64794afa-dc0f-44fe-9062-9222d01ce591")
 		(sheetname "Root")
@@ -5043,6 +5290,19 @@
 				)
 			)
 		)
+		(property "Part Number" "GRM1555C1H220JA01D"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70afdeb0-3478-4cd7-a2ca-03348700ab44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a02e7cac-0de8-4607-8e51-35e878070b8c")
 		(sheetname "Root")
@@ -5206,7 +5466,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "330"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "d4dbaee6-02dc-4746-ba3f-a9b1f8c80a74")
@@ -5250,6 +5510,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RC0402JR-07330RL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "faadb9c1-ad3e-4043-b3f6-8617725330d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5460,6 +5733,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "200-SSW10803GS"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "627c657e-fb53-4e63-a0e2-39fb13081b7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5872,369 +6158,6 @@
 			(justify bottom)
 		)
 	)
-	(dimension
-		(type aligned)
-		(layer "Edge.Cuts")
-		(uuid "238ea828-e221-4cc9-a81d-1d61dcf12dcf")
-		(pts
-			(xy 101.6 54.48) (xy 167.64 54.48)
-		)
-		(height -11.3)
-		(gr_text "2.6 in"
-			(at 134.62 43.18 0)
-			(layer "Edge.Cuts")
-			(uuid "238ea828-e221-4cc9-a81d-1d61dcf12dcf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 1)
-		)
-		(style
-			(thickness 0.05)
-			(arrow_length 1.27)
-			(text_position_mode 2)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "Edge.Cuts")
-		(uuid "32183ef1-dbdf-40a5-8f9b-103f41687208")
-		(pts
-			(xy 165.1 50.8) (xy 165.1 68.58)
-		)
-		(height -7.62)
-		(gr_text "0.7 in"
-			(at 172.72 59.69 90)
-			(layer "Edge.Cuts")
-			(uuid "32183ef1-dbdf-40a5-8f9b-103f41687208")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 1)
-		)
-		(style
-			(thickness 0.05)
-			(arrow_length 1.27)
-			(text_position_mode 2)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "Edge.Cuts")
-		(uuid "4d4d0a6b-4e4f-429e-9b75-bfae304a8d82")
-		(pts
-			(xy 165.1 53.34) (xy 165.1 50.8)
-		)
-		(height 5.08)
-		(gr_text "0.1 in"
-			(at 169.03 52.07 90)
-			(layer "Edge.Cuts")
-			(uuid "4d4d0a6b-4e4f-429e-9b75-bfae304a8d82")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 1)
-		)
-		(style
-			(thickness 0.05)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "Edge.Cuts")
-		(uuid "54c5bd39-0368-477f-bedf-09dc93770894")
-		(pts
-			(xy 165.1 53.34) (xy 167.64 53.34)
-		)
-		(height -5.08)
-		(gr_text "0.1 in"
-			(at 166.37 47.11 0)
-			(layer "Edge.Cuts")
-			(uuid "54c5bd39-0368-477f-bedf-09dc93770894")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 1)
-		)
-		(style
-			(thickness 0.05)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "Edge.Cuts")
-		(uuid "6a159380-eb35-4898-b49e-ee5f00aa08d0")
-		(pts
-			(xy 165.1 99.06) (xy 167.64 99.06)
-		)
-		(height 7.62)
-		(gr_text "0.1 in"
-			(at 166.37 109.22 0)
-			(layer "Edge.Cuts")
-			(uuid "6a159380-eb35-4898-b49e-ee5f00aa08d0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 1)
-		)
-		(style
-			(thickness 0.05)
-			(arrow_length 1.27)
-			(text_position_mode 2)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "Edge.Cuts")
-		(uuid "7596e4f4-a8f2-4799-9f7d-81be37b7fd63")
-		(pts
-			(xy 165.1 101.6) (xy 165.1 104.14)
-		)
-		(height -7.62)
-		(gr_text "0.1 in"
-			(at 175.26 102.87 90)
-			(layer "Edge.Cuts")
-			(uuid "7596e4f4-a8f2-4799-9f7d-81be37b7fd63")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 1)
-		)
-		(style
-			(thickness 0.05)
-			(arrow_length 1.27)
-			(text_position_mode 2)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "Edge.Cuts")
-		(uuid "87716e3f-3bc8-4ecf-9ec8-8775c6f48fd1")
-		(pts
-			(xy 165.1 50.8) (xy 165.1 96.52)
-		)
-		(height -10.16)
-		(gr_text "1.8 in"
-			(at 175.26 73.66 90)
-			(layer "Edge.Cuts")
-			(uuid "87716e3f-3bc8-4ecf-9ec8-8775c6f48fd1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 1)
-		)
-		(style
-			(thickness 0.05)
-			(arrow_length 1.27)
-			(text_position_mode 2)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "Edge.Cuts")
-		(uuid "9d4cf77f-2f5d-492c-97e9-f56543c22294")
-		(pts
-			(xy 101.6 50.8) (xy 116.84 50.8)
-		)
-		(height -2.54)
-		(gr_text "0.6 in"
-			(at 109.22 48.26 0)
-			(layer "Edge.Cuts")
-			(uuid "9d4cf77f-2f5d-492c-97e9-f56543c22294")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 1)
-		)
-		(style
-			(thickness 0.05)
-			(arrow_length 1.27)
-			(text_position_mode 2)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "Edge.Cuts")
-		(uuid "a25275d0-6e4a-47bb-ad79-0f41bcd5bc50")
-		(pts
-			(xy 101.6 53.34) (xy 120.396 53.34)
-		)
-		(height -7.62)
-		(gr_text "0.74 in"
-			(at 110.998 45.72 0)
-			(layer "Edge.Cuts")
-			(uuid "a25275d0-6e4a-47bb-ad79-0f41bcd5bc50")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 2)
-		)
-		(style
-			(thickness 0.05)
-			(arrow_length 1.27)
-			(text_position_mode 2)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "Edge.Cuts")
-		(uuid "d59cd284-7bd6-480c-a05f-086766f610f2")
-		(pts
-			(xy 116.84 53.34) (xy 116.84 50.8)
-		)
-		(height -17.78)
-		(gr_text "0.1 in"
-			(at 99.06 55.88 90)
-			(layer "Edge.Cuts")
-			(uuid "d59cd284-7bd6-480c-a05f-086766f610f2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 1)
-		)
-		(style
-			(thickness 0.05)
-			(arrow_length 1.27)
-			(text_position_mode 2)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "Edge.Cuts")
-		(uuid "d6e7994b-2e3d-4eb7-a4cb-c2aec9695b9c")
-		(pts
-			(xy 147.32 101.6) (xy 152.4 101.6)
-		)
-		(height 5.08)
-		(gr_text "0.2 in"
-			(at 149.86 109.22 0)
-			(layer "Edge.Cuts")
-			(uuid "d6e7994b-2e3d-4eb7-a4cb-c2aec9695b9c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 1)
-		)
-		(style
-			(thickness 0.05)
-			(arrow_length 1.27)
-			(text_position_mode 2)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
 	(segment
 		(start 130.39 76.2)
 		(end 130.39 80.74)
@@ -6525,15 +6448,7 @@
 	)
 	(segment
 		(start 117.03 82.74)
-		(end 121.92 82.74)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 6)
-		(uuid "ab8a5f88-e6a4-42b6-a9b9-7889c8a454f3")
-	)
-	(segment
-		(start 142.901238 82.74)
-		(end 121.92 82.74)
+		(end 142.901238 82.74)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 6)

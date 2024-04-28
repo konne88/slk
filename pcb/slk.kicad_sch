@@ -4159,6 +4159,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "RC0402JR-0710KL"
+			(at 139.7 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f556a35d-5621-40b4-8c30-2ca013ca3c36")
 		)
@@ -4221,6 +4230,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 219.71 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TERM BLK 3P SIDE ENT 5.08MM PCB"
 			(at 219.71 95.25 0)
 			(effects
 				(font
@@ -4294,6 +4312,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
+			(at 31.75 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "200-SSW10803GS"
 			(at 31.75 33.02 0)
 			(effects
 				(font
@@ -4390,6 +4417,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 127 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "slk"
 				(path "/b51e73b5-d684-4a3a-96d9-58e1b62a9f8b"
@@ -4443,6 +4479,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 173.99 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LTST-C193TBKT-5A"
 			(at 173.99 149.86 0)
 			(effects
 				(font
@@ -4511,6 +4556,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 31.75 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "200-SSW10603GS"
 			(at 31.75 58.42 0)
 			(effects
 				(font
@@ -4591,6 +4645,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated"
+			(at 49.53 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "200-SSW11003GS"
 			(at 49.53 38.1 0)
 			(effects
 				(font
@@ -4693,6 +4756,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "GRM1555C1H220JA01D"
+			(at 93.98 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dde81ded-0ed4-433c-8787-1410e90e3305")
 		)
@@ -4725,7 +4797,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "330"
 			(at 181.6735 137.668 90)
 			(effects
 				(font
@@ -4752,6 +4824,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 181.61 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0402JR-07330RL"
 			(at 181.61 140.97 0)
 			(effects
 				(font
@@ -4823,6 +4904,15 @@
 			)
 		)
 		(property "Description" "Stand-Alone CAN Controller with SPI Interface, SOIC-18"
+			(at 116.84 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MCP2515T-I/SO"
 			(at 116.84 105.41 0)
 			(effects
 				(font
@@ -4946,6 +5036,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "LTST-C190GKT "
+			(at 173.99 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5bc61bdb-3417-4c40-8370-ca69754ae0b9")
 		)
@@ -5006,6 +5105,15 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
+			(at 90.17 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "ECS-160-20-3X-TR"
 			(at 90.17 134.62 0)
 			(effects
 				(font
@@ -5075,6 +5183,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 86.36 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM1555C1H220JA01D"
 			(at 86.36 143.51 0)
 			(effects
 				(font
@@ -5153,6 +5270,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 127 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "slk"
 				(path "/b51e73b5-d684-4a3a-96d9-58e1b62a9f8b"
@@ -5179,7 +5305,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "330"
 			(at 181.6735 147.066 90)
 			(effects
 				(font
@@ -5206,6 +5332,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 181.61 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0402JR-07330RL"
 			(at 181.61 149.86 0)
 			(effects
 				(font
@@ -5284,6 +5419,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 127 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "slk"
 				(path "/b51e73b5-d684-4a3a-96d9-58e1b62a9f8b"
@@ -5338,6 +5482,15 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 205.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "JS102011SAQN"
 			(at 205.74 83.82 0)
 			(effects
 				(font
@@ -5416,6 +5569,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "LTST-C191KRKT"
+			(at 173.99 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bdf19754-3c08-41a4-b0a7-0179318640a9")
 		)
@@ -5484,6 +5646,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "200-SSW10803GS"
+			(at 49.53 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9730bde5-7377-495e-84cb-14398878e2ec")
 		)
@@ -5534,7 +5705,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "330"
 			(at 181.6735 127.508 90)
 			(effects
 				(font
@@ -5561,6 +5732,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 181.61 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0402JR-07330RL"
 			(at 181.61 130.81 0)
 			(effects
 				(font
@@ -5639,6 +5819,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 127 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "slk"
 				(path "/b51e73b5-d684-4a3a-96d9-58e1b62a9f8b"
@@ -5692,6 +5881,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 162.56 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TJA1055T/1J (935302723118) "
 			(at 162.56 87.63 0)
 			(effects
 				(font
